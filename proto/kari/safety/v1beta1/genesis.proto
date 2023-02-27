@@ -1,0 +1,7 @@
+syntax = "proto3";
+package kari.safety.v1beta1;
+
+option go_package = "hub/x/safety/types";
+
+// GenesisState defines the safety module's genesis state
+message GenesisState {}
